@@ -10,32 +10,39 @@
   <link rel="stylesheet" href="styles/index.processed.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!--  Scripts -->
+  <!--  Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-57517557-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-57517557-1');
+  </script>
+
 </head>
-<body>
-  <div class="container">
+<body class="container">
 
-    <div>
-      <div>
-        <nav class="navbar fixed-top navbar-dark bg-dark">
-            <a class="navbar-brand" href="http://kronites.com">
-              <img src="./img/kronites-logo.png" width="30" height="30" class="d-inline-block align-top rounded" alt="">
-                  Kronites
-            </a>
-            <div class="navbar-nav">
-                  <span class="navbar-text"><i class="material-icons text-white">phone </i> <h8 class="text-white">  (555) 555-5555</h8></span>
-            </div>
-          </nav>
-      </div>
-
+<header>
+  <nav class="navbar fixed-top container justify-content-between navbar-dark bg-dark">
+    <a class="navbar-brand" href="http://kronites.com">
+      <img src="./img/kronites-logo.png" width="30" height="30" class="d-inline-block align-top rounded" alt="">
+          Kronites
+    </a>
+    <div class="navbar-nav">
+          <span class="navbar-text"><i class="material-icons text-white">phone </i> <h8 class="text-white">  (555) 555-5555</h8></span>
     </div>
+  </nav>
+</header>
 
-        
-    <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-              <h1 class="display-4">Kronites</h1>
-              <p class="lead">Kronites is a team that is dedicated to making your team manage time using the leading time management suite: Kronos.  We have over a decade of experience helping both large and small businesses emplement and optimize the world class time managemene suite.</p>
-            </div>
+<main role="main container">
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Kronites</h1>
+      <p class="lead">Kronites is a team that is dedicated to making your team manage time using the leading time management suite: Kronos.  We have over a decade of experience helping both large and small businesses emplement and optimize the world class time managemene suite.</p>
     </div>
+  </div>
 
   <div class="card-deck">
 
@@ -45,7 +52,7 @@
         <div class="card-body">
           <h5 class="card-title">Time & Attendance</h5>
           <p class="card-text">Kronos helps track time and attendance.  Kronites helps optimize Kronos.  Your employees are your most valuable resourse and you cannot afford to let that resource watch videos on their phones.  Because they will.</p>
-          <a href="#" class="btn btn-warning">LEARN MORE</a>
+          <a href="#" class="btn btn-warning">DETAILS</a>
         </div>
       </div>
     </div>
@@ -54,16 +61,9 @@
       <div class="card-body">
         <img src="./img/k-boarding.png" class="card-img-top bg-info" alt="...">
         <div class="card-body">
-            <h5 class="card-title">On Boarding Made Easy</h5>
-            <p class="card-text">Kronos is great at streamlining the onboarding process.  Let us help you ensure this process is set up correctly so you can get the most from Kronos.  That way Kronos can get the most from those shit-birds you have to pay.  Because you know they are watching YouTube.  Fuckers!</p>
-            <a type="button" class="btn btn-info text-white">HELP!</a>
-        </div>
-        <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-              <div class="modal-content">
-                <iframe src="https://www.youtube.com/embed/3LT6BCUhm7k" frameborder="0"></iframe>
-              </div>
-            </div>
+          <h5 class="card-title">On Boarding Made Easy</h5>
+          <p class="card-text">Kronos is great at streamlining the onboarding process.  Let us help you ensure this process is set up correctly so you can get the most from Kronos.  That way Kronos can get the most from those shit-birds you have to pay.  Because you know they are watching YouTube.  Fuckers!</p>
+          <a type="button" class="btn btn-info text-white"><strong>Read More</strong></a>
         </div>
       </div>
     </div>
@@ -72,63 +72,64 @@
       <div class="card-body">
         <img src="./img/k-report.png" class="card-img-top bg-danger" alt="...">
         <div class="card-body">
-            <h5 class="card-title">Reports!</h5>
-            <p class="card-text">You know your boss wants reports.  He wants graphs and charts.  He wants it online so he can track everyone while out on his boat.  Or golf.  Or whatever he does when he tells you he is meeting clients but you know better.</p>
-            <a href="#" class="btn btn-danger">More Info</a>
+          <h5 class="card-title">Reports!</h5>
+          <p class="card-text">You know your boss wants reports.  He wants graphs and charts.  He wants it online so he can track everyone while out on his boat.  Or golf.  Or whatever he does when he tells you he is meeting clients but you know better.</p>
+          <a href="#" class="btn btn-danger">More Info</a>
         </div>
-
       </div>
     </div>
   </div>
 
   <br />
+</main>
+        
 
-  <footer>
-    <div class="jumbotron jumbotron-fluid bg-secondary">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-              <div class="card border-dark" style="width: 300px;">
-                  <div class="card-body">
-                    <h1 class="card-title">Jeff Adams</h1>
-                    <h5 class="card-subtitle mb-2 text-dark">Senior Kronos Consultant</h5>
-                      <p class="display-7 text-dark">
-                          <i class="material-icons text-dark">phone</i> (555) 555-5555 <br />
-                          <i class="material-icons text-dark">email</i> jeff@kronites.com <br />
-                          
-                      </p>
-                  </div>
+
+<footer>
+  <div class="jumbotron jumbotron-fluid bg-secondary">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+            <div class="card border-dark" style="width: 300px;">
+                <div class="card-body">
+                  <h1 class="card-title">Jeff Adams</h1>
+                  <h5 class="card-subtitle mb-2 text-dark">Senior Kronos Consultant</h5>
+                    <p class="display-7 text-dark">
+                        <i class="material-icons text-dark">phone</i> (555) 555-5555 <br />
+                        <i class="material-icons text-dark">email</i> jeff@kronites.com <br />
+                        
+                    </p>
                 </div>
-          </div>
-          <div class="col-sm text-light">
-            <div class="card bg-secondary border-secondary">
-              <div class="card-body">
-                  <h3>Contact</h3>
-                  <p>Kronites and Kronites.com are properties and trademarks of Jeff Adams.  Kronos and Kronos.com are properties and owned by Kronos Incorporated.  Website designed and built by Greedy Gorilla.</p>
               </div>
-
+        </div>
+        <div class="col-sm text-light">
+          <div class="card bg-secondary border-secondary">
+            <div class="card-body">
+                <h3>About Kronites</h3>
+                <p>Kronites and Kronites.com are properties and trademarks of Jeff Adams.  Kronos and Kronos.com are properties and owned by Kronos Incorporated.  Website designed and built by Greedy Gorilla.</p>
             </div>
 
           </div>
-          <div class="col-sm">
-            <div class="card">
-              <div class="card-body">
-                <h3>Connect With Us</h3>
-                <dl>
-                  <dd><a href="https://www.linkedin.com/in/jeffadams21/">LinkedIn</a></dd>
-                  <dd><a href="https://twitter.com/kronosexpert">Twitter</a></dd>
-                  <dd><a href="#">YouTube</a></dd>
-                  <dd><a href=""></a></dd>
-                </dl>
-              </div>
+
+        </div>
+        <div class="col-sm">
+          <div class="card border-dark">
+            <div class="card-body">
+              <h3>Connect With Us</h3>
+              <dl>
+                <dd><a href="https://www.linkedin.com/in/jeffadams21/">LinkedIn</a></dd>
+                <dd><a href="https://twitter.com/kronosexpert">Twitter</a></dd>
+                <dd><a href="#">YouTube</a></dd>
+                <dd><a href=""></a></dd>
+              </dl>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </footer>
+  </div>
+</footer>
 
-</div>
 
   <script src="scripts/index.js"></script>
 </body>
