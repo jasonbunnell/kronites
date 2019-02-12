@@ -1,6 +1,6 @@
 # Jeff Adam's Kronites Site
 
-Kronites site repo.  This site was made by Jason Bunnell using Bootstrap 4.3.
+Kronites site repo.  This site was made by [Jason Bunnell](https://jasonbunnell.com) using Bootstrap 4.3.
 
 ## Features
 
